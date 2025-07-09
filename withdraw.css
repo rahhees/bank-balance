@@ -1,1 +1,40 @@
-wi
+wbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: wheat;
+}
+.container{
+    border: 1px solid grey;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+.container h2{
+    text-align: center;
+
+}
+
+.inner{
+    width: 250px;
+    margin: 0 auto;
+}
+input{
+    height: 40px;
+    width: 220px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+button{
+     height: 40px;
+    width: 230px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(89, 89, 236);
+    color: white;
+   font-weight: bold;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
